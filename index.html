@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            height: 496vh;
+            width: 100vh;
+            background: linear-gradient(to left, rgb(88, 88, 224), yellow);
+        }
+
+
+
+        .div1 {
+            height: 200px;
+            width: 1535px;
+            background: linear-gradient(to left, pink, orange);
+        }
+
+
+
+        .div1 img {
+            height: 200px;
+            width: 200px;
+            display: inline-block;
+
+        }
+
+        .div1 ul {
+
+            display: inline-block;
+
+            position: absolute;
+            margin-left: 478px;
+            margin-top: 96px;
+
+        }
+
+        .div1 ul li {
+
+            display: inline;
+            padding: 31px;
+
+
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .div2 {
+            height: 576px;
+            width: 1399px;
+            background-color: aqua;
+            display: flex;
+            border-radius:30px ;
+            margin-left: 75px;
+
+        }
+
+        .div3 {
+            color: white;
+            background-color: red;
+            height: 371px;
+            width: 326px;
+            margin-left: -74px;
+
+            text-align: center;
+            border-radius: 50px;
+            padding: 30px;
+            margin-top: 100px;
+            background: linear-gradient(to bottom, red, yellow);
+            border: 5px solid black;
+        }
+
+        .div4 {
+            color: white;
+            background-color: green;
+            height: 371px;
+            width: 326px;
+            margin-top: 100px;
+            margin-left: 20px;
+            text-align: center;
+            border-radius: 50px;
+            padding: 30px;
+            background: linear-gradient(to bottom, red, yellow);
+            border: 5px solid black;
+        }
+
+        .div5 {
+            color: white;
+            background-color: red;
+            height: 371px;
+            width: 326px;
+            margin-left: 20px;
+            margin-top: 100px;
+            text-align: center;
+            border-radius: 50px;
+            padding: 30px;
+            background: linear-gradient(to bottom, red, yellow);
+            border: 5px solid black;
+        }
+
+        .div6 {
+            height: 576px;
+            width: 1347px;
+            background-color: red;
+            margin-top: 100px;
+            padding: 30px;
+            margin-left: 75px;
+border-radius: 30px;
+        }
+
+        .div7 {
+            height: 376px;
+            width: 1200px;
+            background: linear-gradient(to bottom, red, yellow);
+            margin-left: 62px;
+            margin-top: 75px;
+            border-radius: 20px;
+            padding: 30px;
+            border: 5px solid black;
+        }
+
+        .div8 {
+            height: 666px;
+            width: 1445px;
+            background-color: black;
+            background-image: url(https://www.worldatlas.com/r/w1200/upload/25/05/0a/shutterstock-1070022389.jpg);
+            background-repeat: no-repeat;
+            margin-top: 75px;
+            margin-left: 52px;
+            z-index: 1;
+            background-size: 1535px 666px;
+            border-radius: 30px;
+
+        }
+
+        .div9 {
+            height: 441px;
+            width: 1253px;
+            background: linear-gradient(to bottom, red, yellow);
+            margin-left: 65px;
+            margin-top: 0px;
+            opacity: 0.8;
+            border: 5px solid black;
+            padding: 30px;
+            border-radius: 30px;
+
+
+        }
+
+        .div10 {
+            height: 434px;
+            width: 1445px;
+            margin-left: 51px;
+            margin-top: 100px;
+            background: linear-gradient(to right, red, yellow);
+            border-radius: 30px;
+
+        }
+
+        .heading_champ {
+            padding: 10px 10px 0px 30px;
+            font-size: 40px;
+            text-shadow: 5px 2px 10px black;
+        }
+
+        .champ {
+            /* background-color: #3EC70B; */
+            display: flex;
+            justify-content: space-evenly;
+            padding: 20px;
+        }
+
+        .champ1 {
+
+            height: 250px;
+            width: 200px;
+            padding: 10px;
+            border: 2px solid black;
+            border-radius: 5px;
+            text-align: center;
+            background: linear-gradient(to bottom, #ff2882, #A66CFF);
+        }
+
+        .champ1:hover {
+            color: #FFF;
+            box-shadow: 3px 3px 10px black;
+            border-radius: 5px;
+        }
+
+        .img2 {
+            height: 150px;
+            width: 200px;
+
+        }
+
+        .champ1 hr {
+            height: 2px;
+            border: none;
+            background-color: black;
+            margin-top: 5px;
+        }
+
+        .name {
+            margin-top: 20px;
+        }
+
+        .team .dropbtn {
+            font-size: 16px;
+            border: none;
+            outline: none;
+            color: black;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+
+            margin: 0;
+
+        }
+
+       /* .team:hover .dropbtn {
+            background-color:pink;
+        }*/
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            color: beige;
+            background-color: red;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            margin-left: 662px;
+            overflow: scroll;
+            height: 400px;
+            margin-top: 33px;
+}
+        
+
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+          
+
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .team:hover .dropdown-content {
+            display: block;
+        }
+        .li1{
+           
+            background-color:none;
+         
+        }
+        .li1:hover{
+            background-color: rgb(245, 211, 217);
+        }
+        .li2:hover{
+            background-color: rgb(245, 211, 217);
+        }
+        .li3:hover{
+            background-color: rgb(245, 211, 217);
+        }
+        .li4:hover{
+            background-color: rgb(245, 211, 217);
+        }
+        .team:hover{
+            background-color: rgb(245, 211, 217);
+        }
+        
+
+        .foot{
+            background-color: black;
+            color: white;
+            height: 300px;
+            width: 100vw;
+            margin-top: 100px;
+            text-align: center;
+            padding: 10px;
+        }
+        .img30{
+            height: 20px;
+            width: 20px;
+            margin-top: 20px;
+        }
+        .img31{
+            height: 20px;
+            width: 20px;
+        }
+        .img32{
+            height: 20px;
+            width: 20px;
+        }
+        .img33{
+            height: 20px;
+            width: 20px;
+        }
+        .img41{
+            margin-top: 20px;
+            height: 50px;
+            width: 50px;
+        }
+        .img42{
+            height: 50px;
+            width: 50px;
+        }
+        .img43{
+            height: 50px;
+            width: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div1">
+        <img src="pr1.png" alt="">
+        <ul>
+            <li class="li1"><a href="index.html">home</a></li>
+            <li class="li2"> <a href="#di"> About League</a></li>
+            <li class="li3"> <a href="#di1"> League History</a></li>
+            <li class="li4"><a href="fixture.html">Match Fixture</a></li>
+            <li class="team">
+                <button class="dropbtn">Teams
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="https://subba5076.github.io/zephyrminiproject.github.io/manchester%20city.html">Manchester City</a>
+                    <a href="https://subba5076.github.io/zephyrminiproject.github.io/manchester.html">Manchester United</a>
+                    <a href="https://subba5076.github.io/zephyrminiproject.github.io/Arsenal.html">Arsenal</a>
+                    <a href="https://subba5076.github.io/zephyrminiproject.github.io/Tottenham%20Hotspur.html">Tottenham Hotspur</a>
+                    <a href="https://subba5076.github.io/zephyrminiproject.github.io/Newcastle%20United.html">Newcastle United</a>
+                    <a href="https://subba5076.github.io/zephyrminiproject.github.io/Leeds%20United.html">Leeds United</a>
+                    <a href="https://subba5076.github.io/zephyrminiproject.github.io/Chelsea.html">Chelsea</a>
+                    <a href="https://subba5076.github.io/zephyrminiproject.github.io/Aston%20Villa.html">Aston Villa</a>
+                    <a href="https://subba5076.github.io/zephyrminiproject.github.io/Nottingham%20Forest.html">Nottingham Forest</a>
+                    <a href="https://subba5076.github.io/zephyrminiproject.github.io/liverpool.html">Liverpool</a>
+                    <a href="https://subba5076.github.io/zephyrminiproject.github.io/Everton.html">Everton</a>
+                    <a href="https://subba5076.github.io/zephyrminiproject.github.io/Wolverhampton%20Wanderers.html">Wolverhampton Wanderers</a>
+                    <a href="https://subba5076.github.io/zephyrminiproject.github.io/westham.html">West Ham United</a>
+                    <a href="https://subba5076.github.io/zephyrminiproject.github.io/brighton.html">Brighton and Hove Albion</a>
+                </div>
+            </li>
+
+
+        </ul>
+
+
+    </div>
+    <img src="https://tpc.googlesyndication.com/simgad/16010549098822095250" border="0" width="728" height="90" alt=""
+        class="img_ad" style=" margin-left: 393px;">
+
+    <div class="div2">
+
+        <h1 style="margin:30px"><u>Home</u></h1>
+        <div class="div3">
+            <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis inventore, perspiciatis aspernatur
+                necessitatibus quibusdam distinctio expedita quo rerum, sequi eos ea nam unde. Nisi rerum unde nam
+                ratione asperiores fugiat doloribus voluptatibus cumque, laboriosam modi ipsam, nihil itaque sint
+                debitis, repudiandae nulla pariatur quae.</p>
+        </div>
+        <div class="div4">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque ratione ad officiis veritatis omnis cum
+                nostrum magnam, quibusdam delectus odit porro. Tempore, aspernatur vitae harum quaerat, vel autem
+                dolorum quibusdam quia nostrum tenetur distinctio itaque ipsum recusandae reiciendis molestias vero
+                doloribus enim, repudiandae voluptas suscipit.</p>
+
+        </div>
+        <div class="div5">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa incidunt aliquid, odit aperiam, sit illum
+                minus blanditiis fugit quisquam cumque eaque officia explicabo ut magnam velit. Atque beatae libero eum?
+                Explicabo ab nihil at dolores quidem, modi ex maiores nulla commodi voluptates, provident facilis.</p>
+
+        </div>
+
+
+
+
+    </div>
+
+    <div class="div6" id="di">
+        <h1><u>About League</u></h1>
+        <div class="div7">
+            <p style="font-weight:516;">The Premier League is a private company wholly owned by its 20 Member Clubs who
+                make up the League at any one time.
+
+                Each individual club is independent, working within the rules of football, as defined by the Premier
+                League, The FA, UEFA and FIFA, as well as being subject to English and European law.
+
+                Each of the 20 clubs are a Shareholder in the Premier League. Consultation is at the heart of the
+                Premier League and Shareholder meetings are the ultimate decision-making forum for Premier League policy
+                and are held at regular intervals during the course of the season.
+
+                The Premier League AGM takes place at the close of each season, at which time the relegated clubs
+                transfer their shares to the clubs promoted into the Premier League from the Football League
+                Championship.
+
+                Clubs have the opportunity to propose new rules or amendments at the Shareholder meeting. Each Member
+                Club is entitled to one vote and all rule changes and major commercial contracts require the support of
+                at least a two-thirds vote, or 14 clubs, to be agreed.
+
+                The Premier League Rule Book, contained within the Handbook (Download: Premier League Handbook; PDF
+                8MB), serves as a contract between the League, the Member Clubs and one another, defining the structure
+                and running of the competition.
+
+                Any serious breach of the Rule Book results in an independent three-person tribunal sitting to hear the
+                case, ascertain guilt and set the punishment, which can range from fines to points deductions and, in
+                extreme cases, expulsion from the competition (this has never happened in the history of the Premier
+                League).
+
+                At the Premier League's AGM in June 2022, an Owners' Charter was agreed by Clubs. The Owners and
+                Directors of the Member Clubs are custodians of those organisations and will uphold the spirit of the
+                Charter's commitments.
+
+            </p>
+        </div>
+
+
+    </div>
+    <div class="div8" id="di1">
+        <h1 style="color:black;padding:30px;"><u>League History</u></h1>
+        <div class="div9">
+            <p style="font-size: 20px;">
+                The background of the Premier League was a bleak period for English club football. The attendances were
+                record low and the league were notorious for hooligans. In the 1985-86, the league started without a TV
+                coverage since the parts couldn't agree upon a deal. At this time, the biggest clubs in the country
+                began discussions about launching a new independent league.
+
+                The establishment of the Premier League meant a historical divide of the top-level division from the
+                Football League. The new league would not be part of the Football League, with traditions going back to
+                the 1880s. Yet, it would continue to be a part of the league system the worst placed teams in the
+                Premier League would be relegated to the second level and the best placed teams would vice versa be
+                promoted from the second level to Premier League.
+
+                New contracts were made with television companies that understood the potential of the game’s
+                popularity. Sky was given the TV rights and they expanded the program to five-hours sessions. The
+                concept were highly influenced by the American NFL broadcasting, features such as Monday Night Football
+                was introduced for the TV audience.<br><br>
+
+                Premier League is since the 1992-1993 season the top tier of the English football league system (before
+                that Division One had the same function). The next three tiers are incorporated in the so-called English
+                Football League (EFL). When follows two additional tiers, which are part of the National League.
+                <br><br>
+                The league consists of 20 teams (except the three first seasons in which 22 teams were included), which
+                meet each other two times (home and away) per season; 380 games are played in total. Most points by a
+                team in a season, 100 (2.6 per match), were collected by Manchester City in the 2017-18 season.
+            </p>
+
+
+
+        </div>
+
+    </div>
+    <div class="div10">
+
+        <div>
+            <h2 class="heading_champ" style="margin-top: 10px;">CHAMPIONS</h2>
+            <div class="champ">
+               <a href="https://subba5076.github.io/zephyrminiproject.github.io/manchester%20city.html"> <div class="champ1">
+                    <img class="img2"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNY-__KBaHDUQ8zyGy_D6hgs33neA-FMhEWw&usqp=CAU">
+                    <hr>
+                    <h3 class="name">Manchester City</h3>
+                    <p style="font-weight:600;margin-top: 10px;">2021-22</p>
+                </div></a>
+               <a   href="https://subba5076.github.io/zephyrminiproject.github.io/manchester%20city.html"> <div class="champ1">
+                    <img class="img2" src="https://pbs.twimg.com/media/E1IMoc9WYAAqs2L.jpg:large">
+                    <hr>
+                    <h3 class="name">Manchester City</h3>
+                    <p style="font-weight:600;margin-top: 10px;">2020-21</p>
+                </div></a>
+              <a href="https://subba5076.github.io/zephyrminiproject.github.io/liverpool.html"><div class="champ1">
+                    <img class="img2"
+                        src="https://d3j2s6hdd6a7rg.cloudfront.net/v2/uploads/media/default/0002/09/thumb_108466_default_news_size_5.jpeg">
+                    <hr>
+                    <h3 class="name">Liverpool</h3>
+                    <p style="font-weight:600;margin-top: 10px;">2019-20</p>
+                </div></a> 
+               <a href="https://subba5076.github.io/zephyrminiproject.github.io/manchester%20city.html"> <div class="champ1">
+                    <img class="img2" src="https://ronaldo.com/wp-content/uploads/2019/05/GettyImages-1148667652.jpg">
+                    <hr>
+                    <h3 class="name">Manchester City</h3>
+                    <p style="font-weight:600;margin-top: 10px;">2018-19</p>
+                </div></a>
+               <a href="https://subba5076.github.io/zephyrminiproject.github.io/manchester%20city.html"> <div class="champ1">
+                    <img class="img2"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6uvxAhJbbk9dE8JgL0KDRaRBgPXv3rwLhSw&usqp=CAU">
+                    <hr>
+                    <h3 class="name">Manchester City</h3>
+                    <p style="font-weight:600;margin-top: 10px;">2017-18</p>
+                </div></a>
+            </div>
+        </div>
+
+
+
+
+    </div>
+    <footer>
+        <div class="foot">
+            <p>copyright  &copy premier league</p>
+            <p  style="margin-top: 30px;">contact  us</p>
+            <img class="img30"src="https://w7.pngwing.com/pngs/722/1011/png-transparent-logo-icon-instagram-logo-instagram-logo-purple-violet-text-thumbnail.png" alt="">
+            <img class="img31"  src="https://w7.pngwing.com/pngs/110/230/png-transparent-whatsapp-application-software-message-icon-whatsapp-logo-whats-app-logo-logo-grass-mobile-phones-thumbnail.png" alt="">
+            <img class="img32"src="https://w7.pngwing.com/pngs/708/311/png-transparent-icon-logo-twitter-logo-twitter-logo-blue-social-media-area-thumbnail.png" alt="">
+            <img class="img33"src="https://w7.pngwing.com/pngs/511/605/png-transparent-in-logo-linkedin-diduco-ab-icon-linkedin-blue-angle-text-thumbnail.png" alt="">
+            <p style="margin-top:30px ;">Our  Sponsors</p>
+            <img class="img41" src="https://w7.pngwing.com/pngs/475/281/png-transparent-adidas-logo-adidas-logo-adidas-text-photography-shoes-thumbnail.png" alt="">
+            <img class="img42"  src="https://w7.pngwing.com/pngs/507/140/png-transparent-nike-logo-swoosh-nike-logo-nike-logo-text-sneakers-adidas-thumbnail.png" alt="">
+            <img    class="img43" src="https://w7.pngwing.com/pngs/670/927/png-transparent-puma-logo-puma-logo-adidas-swoosh-brand-adidas-text-carnivoran-sneakers-thumbnail.png" alt="">
+
+        </div>
+
+
+
+
+
+    </footer>
+
+
+
+
+</body>
+
+</html>

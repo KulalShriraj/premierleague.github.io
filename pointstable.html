@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>POINTS TABLE</title>
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+            }
+            body{
+                background-color: aquamarine;
+                background-image: url("/FootBall/background2.jpg");
+            }
+            .div1{
+                background-color: aqua;
+                height: 120px;
+                padding: 10px;
+            }
+            .img1{
+                height: 120px;
+                display: inline-block;
+            }
+            .heading1{
+                font-size: 80px;
+                margin: 15px 0px 0px 50px;
+                color: #350459;
+                display: inline-block;
+                position: absolute;
+            }
+            .div2{
+                padding-top: 10px;
+                height: 60px;
+                background: #262626;
+            }
+            .div2 ul{
+                display: flex;
+                list-style-type: none;
+                justify-content: space-evenly;
+            }
+            .div2 ul li{
+                font-weight: 700;
+                background: #262626;
+                width: 170px;
+                height: 50px;
+                line-height: 50px;
+                text-align: center;
+                float: left;
+                color: #FFF;
+                font-size: 14px;
+                position: relative;
+            }
+            .div2 a{
+                font-weight: 700;
+                color: #FFF;
+                font-size: 15px;
+                text-decoration: none;
+            }
+            /* .div2 ul li ul li{
+                height: 40px;
+            } */
+            .div2 ul li:hover{
+                background: crimson;
+                border: 1px solid #FFF;
+            }
+            .div2 ul ul{
+                display: none;
+            }
+            .div2 ul li:hover > ul{
+                display: block;
+                border: 1px solid #FFF;
+            }
+            table{
+                background-color: rgba(255, 255, 255, 0.9);
+                margin: 40px 0px 40px 350px;
+                border: 2px solid;
+                text-align: center;
+                border-collapse: collapse;
+            }
+            tr{
+                border: 2px solid;
+            }
+            tr:hover{
+                background-color: rgb(223, 239, 252);
+            }
+            .first_row:hover,.last_row:hover{
+                background-color: #FFF;
+            }
+            td,th{
+                padding: 7px 0px 7px 0px;
+            }
+            .col1,.col2,.col4,.col5,.col6,.col7,.col8,.col9,.col10{
+                width: 50px;
+            }
+            .col3{
+                text-align: left;
+                width: 230px;
+            }
+            .col12{
+                width: 130px;
+            }
+            .tick{
+                margin: 2px 2px 0px 2px;
+            }
+            .logo{
+                height: 20px;
+                border-radius: 100%;
+            }
+            td a{
+                text-decoration: none;
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="div1">
+            <img class="img1" src="pr1.png">
+            <h1 class="heading1">Premier League</h1>
+        </div>
+        <div class="div2">
+            <ul>
+            
+                <li><a href="fixture.html">FIXTURES</a></li>
+                <li><a href="pointstable.html">POINTS TABLE</a></li>
+                
+                
+            </ul>
+        </div>
+        <table>
+            <tr class="first_row">
+                <th colspan="3">CLUBS</th>
+                <th class="col4">MP</th>
+                <th class="col5">W</th>
+                <th class="col6">D</th>
+                <th class="col7">L</th>
+                <th class="col8">GF</th>
+                <th class="col9">GA</th>
+                <th class="col10">GD</th>
+                <th class="col11">Pts</th>
+                <th class="col12">LAST 5</th>
+            </tr>
+            <tr>
+                <td class="col1">1</td>
+                <td class="col2"><img class="logo" src="https://w1.pngwing.com/pngs/203/356/png-transparent-premier-league-logo-manchester-manchester-city-fc-organization-line-area-circle-symbol-thumbnail.png"></td>
+                <td class="col3"><a href="manchester_city.html">MANCHESTER CITY</a></td>
+                <td class="col4">2</td>
+                <td class="col5">2</td>
+                <td class="col6">0</td>
+                <td class="col7">0</td>
+                <td class="col8">6</td>
+                <td class="col9">0</td>
+                <td class="col10">6</td>
+                <td class="col11">6</td>
+                <td class="col12"><img class="tick" src="geentick.svg"><img class="tick" src="geentick.svg">
+                    <img class="tick" src="emptycircle.svg"><img class="tick" src="emptycircle.svg">
+                    <img class="tick" src="emptycircle.svg"></td>
+            </tr>
+            <tr>
+                <td class="col1">2</td>
+                <td class="col2"><img class="logo" src="https://w7.pngwing.com/pngs/219/412/png-transparent-arsena-1-hd-logo-thumbnail.png"></td>
+                <td class="col3"><a href="arsenal.html">ARSENAL</a></td>
+                <td class="col4">2</td>
+                <td class="col5">2</td>
+                <td class="col6">0</td>
+                <td class="col7">0</td>
+                <td class="col8">6</td>
+                <td class="col9">2</td>
+                <td class="col10">4</td>
+                <td class="col11">6</td>
+                <td class="col12"><img class="tick" src="geentick.svg"><img class="tick" src="geentick.svg">
+                    <img class="tick" src="emptycircle.svg"><img class="tick" src="emptycircle.svg">
+                    <img class="tick" src="emptycircle.svg"></td>
+            </tr>
+            <tr>
+                <td class="col1">3</td>
+                <td class="col2"><img class="logo" src="https://w7.pngwing.com/pngs/946/1000/png-transparent-brentford-f-c-griffin-park-football-brentford-fc-community-sports-trust-brentford-vs-birmingham-football-emblem-label-sport-thumbnail.png"></td>
+                <td class="col3">BRENTFORD</td>
+                <td class="col4">2</td>
+                <td class="col5">1</td>
+                <td class="col6">1</td>
+                <td class="col7">0</td>
+                <td class="col8">6</td>
+                <td class="col9">2</td>
+                <td class="col10">4</td>
+                <td class="col11">4</td>
+                <td class="col12"><img class="tick" src="geentick.svg"><img class="tick" src="dashtick.svg">
+                    <img class="tick" src="emptycircle.svg"><img class="tick" src="emptycircle.svg">
+                    <img class="tick" src="emptycircle.svg"></td>
+            </tr>
+            <tr>
+                <td class="col1">4</td>
+                <td class="col2"><img class="logo" src="https://w7.pngwing.com/pngs/297/393/png-transparent-tottenham-hotspur-f-c-premier-league-northumberland-development-project-tottenham-hotspur-foundation-football-premier-league-logo-sports-tottenham-hotspur-fc-thumbnail.png"></td>
+                <td class="col3"> <a href="Hotspur.html">TOTTENHAM HOTSPUR</a></td>
+                <td class="col4">2</td>
+                <td class="col5">1</td>
+                <td class="col6">1</td>
+                <td class="col7">0</td>
+                <td class="col8">6</td>
+                <td class="col9">3</td>
+                <td class="col10">3</td>
+                <td class="col11">4</td>
+                <td class="col12"><img class="tick" src="dashtick.svg"><img class="tick" src="geentick.svg">
+                    <img class="tick" src="emptycircle.svg"><img class="tick" src="emptycircle.svg">
+                    <img class="tick" src="emptycircle.svg"></td>
+            </tr>
+            <tr>
+                <td class="col1">5</td>
+                <td class="col2"><img class="logo" src="https://w7.pngwing.com/pngs/14/8/png-transparent-newcastle-united-f-c-premier-league-st-james-park-newcastle-east-end-f-c-efl-cup-premier-league-thumbnail.png"></td>
+                <td class="col3"><a href="newcastle.html">NEWCASTLE</a></td>
+                <td class="col4">2</td>
+                <td class="col5">1</td>
+                <td class="col6">1</td>
+                <td class="col7">0</td>
+                <td class="col8">2</td>
+                <td class="col9">0</td>
+                <td class="col10">2</td>
+                <td class="col11">4</td>
+                <td class="col12"><img class="tick" src="dashtick.svg"><img class="tick" src="geentick.svg">
+                    <img class="tick" src="emptycircle.svg"><img class="tick" src="emptycircle.svg">
+                    <img class="tick" src="emptycircle.svg"></td>
+            </tr>
+            <tr>
+                <td class="col1">6</td>
+                <td class="col2"><img class="logo" src="https://w7.pngwing.com/pngs/904/221/png-transparent-leeds-united-f-c-efl-championship-reading-f-c-leeds-united-l-f-c-football-emblem-trademark-logo-thumbnail.png"></td>
+                <td class="col3"><a href="leeds.html">LEEDS UNITED</a></td>
+                <td class="col4">2</td>
+                <td class="col5">1</td>
+                <td class="col6">1</td>
+                <td class="col7">0</td>
+                <td class="col8">4</td>
+                <td class="col9">3</td>
+                <td class="col10">1</td>
+                <td class="col11">4</td>
+                <td class="col12"><img class="tick" src="dashtick.svg"><img class="tick" src="geentick.svg">
+                    <img class="tick" src="emptycircle.svg"><img class="tick" src="emptycircle.svg">
+                    <img class="tick" src="emptycircle.svg"></td>
+            </tr>
+            <tr>
+                <td class="col1">7</td>
+                <td class="col2"><img class="logo" src="https://w7.pngwing.com/pngs/47/877/png-transparent-chelsea-football-club-logo-chelsea-f-c-premier-league-world-cup-chelsea-fc-premier-league-blue-emblem-sport-thumbnail.png"></td>
+                <td class="col3"><a href="chelsea.html">CHELSEA</a></td>
+                <td class="col4">2</td>
+                <td class="col5">1</td>
+                <td class="col6">1</td>FootBall/leeds_uniteleeds_united_logod_logo.png
+                <td class="col7">0</td>
+                <td class="col8">3</td>
+                <td class="col9">2</td>
+                <td class="col10">1</td>
+                <td class="col11">4</td>
+                <td class="col12"><img class="tick" src="dashtick.svg"><img class="tick" src="geentick.svg">
+                    <img class="tick" src="emptycircle.svg"><img class="tick" src="emptycircle.svg">
+                    <img class="tick" src="emptycircle.svg"></td>
+            </tr>
+            <tr>
+                <td class="col1">8</td>
+                <td class="col2"><img class="logo" src="https://w1.pngwing.com/pngs/331/651/png-transparent-premier-league-logo-brighton-organization-brighton-hove-albion-fc-blue-text-line-area-thumbnail.png"></td>
+                <td class="col3">BRIGHTON</td>
+                <td class="col4">2</td>
+                <td class="col5">1</td>
+                <td class="col6">1</td>
+                <td class="col7">0</td>
+                <td class="col8">2</td>
+                <td class="col9">1</td>
+                <td class="col10">1</td>
+                <td class="col11">4</td>
+                <td class="col12"><img class="tick" src="dashtick.svg"><img class="tick" src="geentick.svg">
+                    <img class="tick" src="emptycircle.svg"><img class="tick" src="emptycircle.svg">
+                    <img class="tick" src="emptycircle.svg"></td>
+            </tr>
+            <tr>
+                <td class="col1">9</td>
+                <td class="col2"><img class="logo" src="https://w7.pngwing.com/pngs/344/909/png-transparent-aston-villa-f-c-aston-villa-l-f-c-efl-championship-villa-park-1888-89-football-league-fulham-f-c-thumbnail.png"></td>
+                <td class="col3"><a href="aston_villa.html">ASTON VILLA</a></td>
+                <td class="col4">2</td>
+                <td class="col5">1</td>
+                <td class="col6">0</td>
+                <td class="col7">1</td>
+                <td class="col8">2</td>
+                <td class="col9">3</td>
+                <td class="col10">-1</td>
+                <td class="col11">3</td>
+                <td class="col12"><img class="tick" src="geentick.svg"><img class="tick" src="crosstick.svg">
+                    <img class="tick" src="emptycircle.svg"><img class="tick" src="emptycircle.svg">
+                    <img class="tick" src="emptycircle.svg"></td>
+            </tr>
+            <tr>
+                <td class="col1">10</td>
+                <td class="col2"><img class="logo" src="https://w7.pngwing.com/pngs/116/250/png-transparent-1872-fa-cup-final-wanderers-f-c-nottingham-forest-f-c-royal-engineers-a-f-c-team-badge-template-emblem-team-logo-thumbnail.png"></td>
+                <td class="col3"><a href="nottingham.html">NOTTINGHAM FOREST</a></td>
+                <td class="col4">2</td>
+                <td class="col5">1</td>
+                <td class="col6">0</td>
+                <td class="col7">1</td>
+                <td class="col8">1</td>
+                <td class="col9">2</td>
+                <td class="col10">-1</td>
+                <td class="col11">3</td>
+                <td class="col12"><img class="tick" src="geentick.svg"><img class="tick" src="crosstick.svg">
+                    <img class="tick" src="emptycircle.svg"><img class="tick" src="emptycircle.svg">
+                    <img class="tick" src="emptycircle.svg"></td>
+            </tr>
+            <tr>
+                <td class="col1">11</td>
+                <td class="col2"><img class="logo" src="https://w7.pngwing.com/pngs/327/94/png-transparent-a-f-c-bournemouth-dean-court-english-football-league-premier-league-premier-league-emblem-label-team-thumbnail.png"></td>
+                <td class="col3">BOURNEMOUTH</td>
+                <td class="col4">2</td>
+                <td class="col5">1</td>
+                <td class="col6">0</td>
+                <td class="col7">1</td>
+                <td class="col8">2</td>
+                <td class="col9">4</td>
+                <td class="col10">-2</td>
+                <td class="col11">3</td>
+                <td class="col12"><img class="tick" src="crosstick.svg"><img class="tick" src="geentick.svg">
+                    <img class="tick" src="emptycircle.svg"><img class="tick" src="emptycircle.svg">
+                    <img class="tick" src="emptycircle.svg"></td>
+            </tr>
+            <tr>
+                <td class="col1">12</td>
+                <td class="col2"><img class="logo" src="https://w7.pngwing.com/pngs/18/496/png-transparent-liverpool-f-c-anfield-liverpool-l-f-c-football-everton-f-c-football-logo-fictional-character-sports-thumbnail.png"></td>
+                <td class="col3"><a href="liverpool.html">LIVERPOOL</a></td>
+                <td class="col4">2</td>
+                <td class="col5">0</td>
+                <td class="col6">2</td>
+                <td class="col7">0</td>
+                <td class="col8">3</td>
+                <td class="col9">3</td>
+                <td class="col10">0</td>
+                <td class="col11">2</td>
+                <td class="col12"><img class="tick" src="dashtick.svg"><img class="tick" src="dashtick.svg">
+                    <img class="tick" src="emptycircle.svg"><img class="tick" src="emptycircle.svg">
+                    <img class="tick" src="emptycircle.svg"></td>
+            </tr>
+            <tr>
+                <td class="col1">13</td>
+                <td class="col2"><img class="logo" src="https://w7.pngwing.com/pngs/770/181/png-transparent-craven-cottage-fulham-f-c-fullham-fc-training-ground-efl-championship-fulham-football-club-limited-fulham-f-c-emblem-text-trademark-thumbnail.png"></td>
+                <td class="col3">FULHAM</td>
+                <td class="col4">2</td>
+                <td class="col5">0</td>
+                <td class="col6">2</td>
+                <td class="col7">0</td>
+                <td class="col8">2</td>
+                <td class="col9">2</td>
+                <td class="col10">0</td>
+                <td class="col11">2</td>
+                <td class="col12"><img class="tick" src="dashtick.svg"><img class="tick" src="dashtick.svg">
+                    <img class="tick" src="emptycircle.svg"><img class="tick" src="emptycircle.svg">
+                    <img class="tick" src="emptycircle.svg"></td>
+            </tr>
+            <tr>
+                <td class="col1">14</td>
+                <td class="col2"><img class="logo" src="https://w7.pngwing.com/pngs/210/952/png-transparent-wolverhampton-wanderers-f-c-wolverhampton-wanderers-w-f-c-premier-league-premier-league-thumbnail.png"></td>
+                <td class="col3">WOLVERHAMPTON WANDERERS</td>
+                <td class="col4">2</td>
+                <td class="col5">0</td>
+                <td class="col6">1</td>
+                <td class="col7">1</td>
+                <td class="col8">1</td>
+                <td class="col9">2</td>
+                <td class="col10">-1</td>
+                <td class="col11">1</td>
+                <td class="col12"><img class="tick" src="dashtick.svg"><img class="tick" src="crosstick.svg">
+                    <img class="tick" src="emptycircle.svg"><img class="tick" src="emptycircle.svg">
+                    <img class="tick" src="emptycircle.svg"></td>
+            </tr>
+            <tr>
+                <td class="col1">15</td>
+                <td class="col2"><img class="logo" src="https://w7.pngwing.com/pngs/997/289/png-transparent-manchester-united-logo-food-text-sport-thumbnail.png"></td>
+                <td class="col3"><a href="manchester_united.html">MANCHESTER UNITED</a></td>
+                <td class="col4">2</td>
+                <td class="col5">0</td>
+                <td class="col6">0</td>
+                <td class="col7">2</td>
+                <td class="col8">1</td>
+                <td class="col9">6</td>
+                <td class="col10">-5</td>
+                <td class="col11">0</td>
+                <td class="col12"><img class="tick" src="crosstick.svg"><img class="tick" src="crosstick.svg">
+                    <img class="tick" src="emptycircle.svg"><img class="tick" src="emptycircle.svg">
+                    <img class="tick" src="emptycircle.svg"></td>
+            </tr>
+            <tr class="last_row">
+                <td style="text-align:left; padding:10px 0px 10px 30px;" rowspan="3" colspan="12">
+                    <img style="margin-right: 7px;" src="geentick.svg">Win
+                    <br><img style="margin-right: 7px;" src="dashtick.svg">Draw
+                    <br><img style="margin-right: 7px;" src="crosstick.svg">Loss
+                    <br><img style="margin-right: 7px;" src="emptycircle.svg">Not Played
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
